@@ -13,7 +13,7 @@ pipeline {
         APP_NAME = "thierry"
         STG_API_ENDPOINT = "ip10-0-3-3-cfv17hnielrgqhpdu240-1993.direct.docker.labs.eazytraining.fr"
         STG_APP_ENDPOINT = "ip10-0-3-3-cfv17hnielrgqhpdu240-8080.direct.docker.labs.eazytraining.fr"
-        PROD_API_ENDPOINT = "ip10-0-3-3-cfv17hnielrgqhpdu240-1993.direct.docker.labs.eazytraining.fr"
+        PROD_API_ENDPOINT = "ip10-0-3-3-cfv17hnielrgqhpdu240-80.direct.docker.labs.eazytraining.fr"
         PROD_APP_ENDPOINT = "ip10-0-3-3-cfv17hnielrgqhpdu240-80.direct.docker.labs.eazytraining.fr"
         INTERNAL_PORT = "80"
         EXTERNAL_PORT = "${PORT_EXPOSED}"
